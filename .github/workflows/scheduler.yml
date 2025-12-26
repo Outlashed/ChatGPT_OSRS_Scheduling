@@ -30,6 +30,12 @@ jobs:
         with:
           python-version: '3.11'
 
+      - name: Show active workflow file
+        run: |
+          echo "----- .github/workflows/scheduler.yml (active) -----"
+          sed -n '1,200p' .github/workflows/scheduler.yml
+
+
       - name: Run Herblore scheduler
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
