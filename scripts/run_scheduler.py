@@ -393,8 +393,15 @@ def discord_post(webhook_url: str, content: str) -> None:
                 time.sleep(retry_after)
                 with urllib.request.urlopen(req, timeout=20) as resp:
                     resp.read()
-            else:
-                raise
+             else:
+                # Do not crash the whole scheduler on Discord errors (e.g. 403 Forbidden).
+                try:
+                    body = e.read().decode("utf-8", errors="replace")
+                except Exception:
+                    body = ""
+                print(f"[Discord] HTTP {e.code} {e.reason}. Body: {body}")
+                return
+
 
 
 def main() -> int:
