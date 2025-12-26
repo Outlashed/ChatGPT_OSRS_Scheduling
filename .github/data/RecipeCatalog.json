@@ -1,0 +1,1048 @@
+{
+  "recipes": [
+    {
+      "RecipeName": "Armadyl brew",
+      "OutputItemName": "Armadyl Brew(4)",
+      "RecipeType": "Standard",
+      "N": 3,
+      "GogglesAllowed": true,
+      "BaseMaterials": [
+        {
+          "ItemName": "Umbral potion (unf)",
+          "Quantity": 1,
+          "IsDoseScaledFromFour": false
+        }
+      ],
+      "SecondaryMaterials": [
+        {
+          "ItemName": "Rainbow crab paste",
+          "Quantity": 1
+        }
+      ],
+      "XP_per_craft": 205,
+      "XP_per_hour": 563750
+    },
+    {
+      "RecipeName": "Ancient brew",
+      "OutputItemName": "Ancient brew(4)",
+      "RecipeType": "Standard",
+      "N": 3,
+      "GogglesAllowed": true,
+      "BaseMaterials": [
+        {
+          "ItemName": "Dwarf weed potion (unf)",
+          "Quantity": 1,
+          "IsDoseScaledFromFour": false
+        }
+      ],
+      "SecondaryMaterials": [
+        {
+          "ItemName": "Nihil dust",
+          "Quantity": 1
+        }
+      ],
+      "XP_per_craft": 190,
+      "XP_per_hour": 522500
+    },
+    {
+      "RecipeName": "Menaphite remedy",
+      "OutputItemName": "Menaphite remedy(4)",
+      "RecipeType": "Standard",
+      "N": 3,
+      "GogglesAllowed": true,
+      "BaseMaterials": [
+        {
+          "ItemName": "Dwarf weed potion (unf)",
+          "Quantity": 1,
+          "IsDoseScaledFromFour": false
+        }
+      ],
+      "SecondaryMaterials": [
+        {
+          "ItemName": "Lily of the sands",
+          "Quantity": 1
+        }
+      ],
+      "XP_per_craft": 200,
+      "XP_per_hour": 500000
+    },
+    {
+      "RecipeName": "Saradomin brew",
+      "OutputItemName": "Saradomin brew(4)",
+      "RecipeType": "Standard",
+      "N": 3,
+      "GogglesAllowed": true,
+      "BaseMaterials": [
+        {
+          "ItemName": "Toadflax potion (unf)",
+          "Quantity": 1,
+          "IsDoseScaledFromFour": false
+        }
+      ],
+      "SecondaryMaterials": [
+        {
+          "ItemName": "Crushed nest",
+          "Quantity": 1
+        }
+      ],
+      "XP_per_craft": 180,
+      "XP_per_hour": 450000
+    },
+    {
+      "RecipeName": "Extended super antifire",
+      "OutputItemName": "Extended super antifire(4)",
+      "RecipeType": "FixedFourDose",
+      "N": 4,
+      "GogglesAllowed": true,
+      "BaseMaterials": [
+        {
+          "ItemName": "Extended antifire(4)",
+          "Quantity": 1,
+          "IsDoseScaledFromFour": false
+        }
+      ],
+      "SecondaryMaterials": [
+        {
+          "ItemName": "Dragon bones",
+          "Quantity": 1
+        }
+      ],
+      "XP_per_craft": 180,
+      "XP_per_hour": 450000
+    },
+    {
+      "RecipeName": "Super energy",
+      "OutputItemName": "Super energy(4)",
+      "RecipeType": "Standard",
+      "N": 3,
+      "GogglesAllowed": true,
+      "BaseMaterials": [
+        {
+          "ItemName": "Avantoe potion (unf)",
+          "Quantity": 1,
+          "IsDoseScaledFromFour": false
+        }
+      ],
+      "SecondaryMaterials": [
+        {
+          "ItemName": "Mort myre fungus",
+          "Quantity": 1
+        }
+      ],
+      "XP_per_craft": 117.5,
+      "XP_per_hour": 293750
+    },
+    {
+      "RecipeName": "Fishing potion",
+      "OutputItemName": "Fishing potion(4)",
+      "RecipeType": "Standard",
+      "N": 3,
+      "GogglesAllowed": true,
+      "BaseMaterials": [
+        {
+          "ItemName": "Avantoe potion (unf)",
+          "Quantity": 1,
+          "IsDoseScaledFromFour": false
+        }
+      ],
+      "SecondaryMaterials": [
+        {
+          "ItemName": "Snape grass",
+          "Quantity": 1
+        }
+      ],
+      "XP_per_craft": 112.5,
+      "XP_per_hour": 281250
+    },
+    {
+      "RecipeName": "Super fishing potion",
+      "OutputItemName": "Super fishing potion(4)",
+      "RecipeType": "Standard",
+      "N": 3,
+      "GogglesAllowed": true,
+      "BaseMaterials": [
+        {
+          "ItemName": "Pillar potion (unf)",
+          "Quantity": 1,
+          "IsDoseScaledFromFour": false
+        }
+      ],
+      "SecondaryMaterials": [
+        {
+          "ItemName": "Haddock eye",
+          "Quantity": 1
+        }
+      ],
+      "XP_per_craft": 132,
+      "XP_per_hour": 330000
+    },
+    {
+      "RecipeName": "Super antifire potion",
+      "OutputItemName": "Super antifire potion(4)",
+      "RecipeType": "FixedFourDose",
+      "N": 4,
+      "GogglesAllowed": true,
+      "BaseMaterials": [
+        {
+          "ItemName": "Antifire potion(4)",
+          "Quantity": 1,
+          "IsDoseScaledFromFour": false
+        }
+      ],
+      "SecondaryMaterials": [
+        {
+          "ItemName": "Dragon bones",
+          "Quantity": 1
+        }
+      ],
+      "XP_per_craft": 130,
+      "XP_per_hour": 325000
+    },
+    {
+      "RecipeName": "Super combat potion",
+      "OutputItemName": "Super combat potion(4)",
+      "RecipeType": "FixedFourDose",
+      "N": 4,
+      "GogglesAllowed": false,
+      "BaseMaterials": [
+        {
+          "ItemName": "Super strength(4)",
+          "Quantity": 1,
+          "IsDoseScaledFromFour": false
+        },
+        {
+          "ItemName": "Super attack(4)",
+          "Quantity": 1,
+          "IsDoseScaledFromFour": false
+        },
+        {
+          "ItemName": "Super defence(4)",
+          "Quantity": 1,
+          "IsDoseScaledFromFour": false
+        }
+      ],
+      "SecondaryMaterials": [
+        {
+          "ItemName": "Torstol",
+          "Quantity": 1
+        }
+      ],
+      "XP_per_craft": 150,
+      "XP_per_hour": 324900
+    },
+    {
+      "RecipeName": "Super strength",
+      "OutputItemName": "Super strength(4)",
+      "RecipeType": "Standard",
+      "N": 3,
+      "GogglesAllowed": true,
+      "BaseMaterials": [
+        {
+          "ItemName": "Kwuarm potion (unf)",
+          "Quantity": 1,
+          "IsDoseScaledFromFour": false
+        }
+      ],
+      "SecondaryMaterials": [
+        {
+          "ItemName": "Limpwurt root",
+          "Quantity": 1
+        }
+      ],
+      "XP_per_craft": 125,
+      "XP_per_hour": 312500
+    },
+    {
+      "RecipeName": "Super attack",
+      "OutputItemName": "Super attack(4)",
+      "RecipeType": "Standard",
+      "N": 3,
+      "GogglesAllowed": true,
+      "BaseMaterials": [
+        {
+          "ItemName": "Irit potion (unf)",
+          "Quantity": 1,
+          "IsDoseScaledFromFour": false
+        }
+      ],
+      "SecondaryMaterials": [
+        {
+          "ItemName": "Eye of newt",
+          "Quantity": 1
+        }
+      ],
+      "XP_per_craft": 100,
+      "XP_per_hour": 250000
+    },
+    {
+      "RecipeName": "Super antipoison",
+      "OutputItemName": "Super antipoison(4)",
+      "RecipeType": "Standard",
+      "N": 3,
+      "GogglesAllowed": true,
+      "BaseMaterials": [
+        {
+          "ItemName": "Irit potion (unf)",
+          "Quantity": 1,
+          "IsDoseScaledFromFour": false
+        }
+      ],
+      "SecondaryMaterials": [
+        {
+          "ItemName": "Unicorn horn dust",
+          "Quantity": 1
+        }
+      ],
+      "XP_per_craft": 106.3,
+      "XP_per_hour": 265750
+    },
+    {
+      "RecipeName": "Haemostatic dressing",
+      "OutputItemName": "Haemostatic dressing(4)",
+      "RecipeType": "Standard",
+      "N": 3,
+      "GogglesAllowed": true,
+      "BaseMaterials": [
+        {
+          "ItemName": "Haemostatic poultice",
+          "Quantity": 1,
+          "IsDoseScaledFromFour": false
+        }
+      ],
+      "SecondaryMaterials": [
+        {
+          "ItemName": "Cotton yarn",
+          "Quantity": 1
+        }
+      ],
+      "XP_per_craft": 100,
+      "XP_per_hour": 250000
+    },
+    {
+      "RecipeName": "Strength potion",
+      "OutputItemName": "Strength potion(4)",
+      "RecipeType": "Standard",
+      "N": 3,
+      "GogglesAllowed": true,
+      "BaseMaterials": [
+        {
+          "ItemName": "Tarromin potion (unf)",
+          "Quantity": 1,
+          "IsDoseScaledFromFour": false
+        }
+      ],
+      "SecondaryMaterials": [
+        {
+          "ItemName": "Limpwurt root",
+          "Quantity": 1
+        }
+      ],
+      "XP_per_craft": 50,
+      "XP_per_hour": 125000
+    },
+    {
+      "RecipeName": "Serum 207",
+      "OutputItemName": "Serum 207(4)",
+      "RecipeType": "Standard",
+      "N": 3,
+      "GogglesAllowed": true,
+      "BaseMaterials": [
+        {
+          "ItemName": "Tarromin potion (unf)",
+          "Quantity": 1,
+          "IsDoseScaledFromFour": false
+        }
+      ],
+      "SecondaryMaterials": [
+        {
+          "ItemName": "Ashes",
+          "Quantity": 1
+        }
+      ],
+      "XP_per_craft": 50,
+      "XP_per_hour": 116500
+    },
+    {
+      "RecipeName": "Antipoison",
+      "OutputItemName": "Antipoison(4)",
+      "RecipeType": "Standard",
+      "N": 3,
+      "GogglesAllowed": true,
+      "BaseMaterials": [
+        {
+          "ItemName": "Marrentill potion (unf)",
+          "Quantity": 1,
+          "IsDoseScaledFromFour": false
+        }
+      ],
+      "SecondaryMaterials": [
+        {
+          "ItemName": "Unicorn horn dust",
+          "Quantity": 1
+        }
+      ],
+      "XP_per_craft": 37.5,
+      "XP_per_hour": 93750
+    },
+    {
+      "RecipeName": "Prayer potion",
+      "OutputItemName": "Prayer potion(4)",
+      "RecipeType": "Standard",
+      "N": 3,
+      "GogglesAllowed": true,
+      "BaseMaterials": [
+        {
+          "ItemName": "Ranarr potion (unf)",
+          "Quantity": 1,
+          "IsDoseScaledFromFour": false
+        }
+      ],
+      "SecondaryMaterials": [
+        {
+          "ItemName": "Snape grass",
+          "Quantity": 1
+        }
+      ],
+      "XP_per_craft": 87.5,
+      "XP_per_hour": 218750
+    },
+    {
+      "RecipeName": "Combat potion",
+      "OutputItemName": "Combat potion(4)",
+      "RecipeType": "Standard",
+      "N": 3,
+      "GogglesAllowed": true,
+      "BaseMaterials": [
+        {
+          "ItemName": "Harralander potion (unf)",
+          "Quantity": 1,
+          "IsDoseScaledFromFour": false
+        }
+      ],
+      "SecondaryMaterials": [
+        {
+          "ItemName": "Goat horn dust",
+          "Quantity": 1
+        }
+      ],
+      "XP_per_craft": 84,
+      "XP_per_hour": 210000
+    },
+    {
+      "RecipeName": "Agility potion",
+      "OutputItemName": "Agility potion(4)",
+      "RecipeType": "Standard",
+      "N": 3,
+      "GogglesAllowed": true,
+      "BaseMaterials": [
+        {
+          "ItemName": "Toadflax potion (unf)",
+          "Quantity": 1,
+          "IsDoseScaledFromFour": false
+        }
+      ],
+      "SecondaryMaterials": [
+        {
+          "ItemName": "Toad's legs",
+          "Quantity": 1
+        }
+      ],
+      "XP_per_craft": 80,
+      "XP_per_hour": 200000
+    },
+    {
+      "RecipeName": "Energy potion",
+      "OutputItemName": "Energy potion(4)",
+      "RecipeType": "Standard",
+      "N": 3,
+      "GogglesAllowed": true,
+      "BaseMaterials": [
+        {
+          "ItemName": "Harralander potion (unf)",
+          "Quantity": 1,
+          "IsDoseScaledFromFour": false
+        }
+      ],
+      "SecondaryMaterials": [
+        {
+          "ItemName": "Chocolate dust",
+          "Quantity": 1
+        }
+      ],
+      "XP_per_craft": 67.5,
+      "XP_per_hour": 168750
+    },
+    {
+      "RecipeName": "Restore potion",
+      "OutputItemName": "Restore potion(4)",
+      "RecipeType": "Standard",
+      "N": 3,
+      "GogglesAllowed": true,
+      "BaseMaterials": [
+        {
+          "ItemName": "Harralander potion (unf)",
+          "Quantity": 1,
+          "IsDoseScaledFromFour": false
+        }
+      ],
+      "SecondaryMaterials": [
+        {
+          "ItemName": "Red spiders' eggs",
+          "Quantity": 1
+        }
+      ],
+      "XP_per_craft": 62.5,
+      "XP_per_hour": 156250
+    },
+    {
+      "RecipeName": "Compost potion",
+      "OutputItemName": "Compost potion(4)",
+      "RecipeType": "Standard",
+      "N": 3,
+      "GogglesAllowed": true,
+      "BaseMaterials": [
+        {
+          "ItemName": "Harralander potion (unf)",
+          "Quantity": 1,
+          "IsDoseScaledFromFour": false
+        }
+      ],
+      "SecondaryMaterials": [
+        {
+          "ItemName": "Volcanic ash",
+          "Quantity": 1
+        }
+      ],
+      "XP_per_craft": 60,
+      "XP_per_hour": 150000
+    },
+    {
+      "RecipeName": "Anti-venom (N=4)",
+      "OutputItemName": "Anti-venom(4)",
+      "RecipeType": "DoseScaled",
+      "N": 4,
+      "GogglesAllowed": true,
+      "BaseMaterials": [
+        {
+          "ItemName": "Antidote++(4)",
+          "Quantity": 1,
+          "IsDoseScaledFromFour": false
+        }
+      ],
+      "SecondaryMaterials": [
+        {
+          "ItemName": "Zulrah's scales",
+          "Quantity": 20
+        }
+      ],
+      "XP_per_craft": 120,
+      "XP_per_hour": 330000
+    },
+    {
+      "RecipeName": "Anti-venom (N=3)",
+      "OutputItemName": "Anti-venom(4)",
+      "RecipeType": "DoseScaled",
+      "N": 3,
+      "GogglesAllowed": true,
+      "BaseMaterials": [
+        {
+          "ItemName": "Antidote++(4)",
+          "Quantity": 1,
+          "IsDoseScaledFromFour": true
+        }
+      ],
+      "SecondaryMaterials": [
+        {
+          "ItemName": "Zulrah's scales",
+          "Quantity": 15
+        }
+      ],
+      "XP_per_craft": 90,
+      "XP_per_hour": 247500
+    },
+    {
+      "RecipeName": "Anti-venom (N=2)",
+      "OutputItemName": "Anti-venom(4)",
+      "RecipeType": "DoseScaled",
+      "N": 2,
+      "GogglesAllowed": true,
+      "BaseMaterials": [
+        {
+          "ItemName": "Antidote++(4)",
+          "Quantity": 1,
+          "IsDoseScaledFromFour": true
+        }
+      ],
+      "SecondaryMaterials": [
+        {
+          "ItemName": "Zulrah's scales",
+          "Quantity": 10
+        }
+      ],
+      "XP_per_craft": 60,
+      "XP_per_hour": 165000
+    },
+    {
+      "RecipeName": "Anti-venom (N=1)",
+      "OutputItemName": "Anti-venom(4)",
+      "RecipeType": "DoseScaled",
+      "N": 1,
+      "GogglesAllowed": true,
+      "BaseMaterials": [
+        {
+          "ItemName": "Antidote++(4)",
+          "Quantity": 1,
+          "IsDoseScaledFromFour": true
+        }
+      ],
+      "SecondaryMaterials": [
+        {
+          "ItemName": "Zulrah's scales",
+          "Quantity": 5
+        }
+      ],
+      "XP_per_craft": 30,
+      "XP_per_hour": 54990
+    },
+    {
+      "RecipeName": "Stamina potion (N=4)",
+      "OutputItemName": "Stamina potion(4)",
+      "RecipeType": "DoseScaled",
+      "N": 4,
+      "GogglesAllowed": false,
+      "BaseMaterials": [
+        {
+          "ItemName": "Super energy(4)",
+          "Quantity": 1,
+          "IsDoseScaledFromFour": true
+        }
+      ],
+      "SecondaryMaterials": [
+        {
+          "ItemName": "Amylase crystal",
+          "Quantity": 4
+        }
+      ],
+      "XP_per_craft": 102,
+      "XP_per_hour": 280500
+    },
+    {
+      "RecipeName": "Stamina potion (N=3)",
+      "OutputItemName": "Stamina potion(4)",
+      "RecipeType": "DoseScaled",
+      "N": 3,
+      "GogglesAllowed": false,
+      "BaseMaterials": [
+        {
+          "ItemName": "Super energy(4)",
+          "Quantity": 1,
+          "IsDoseScaledFromFour": true
+        }
+      ],
+      "SecondaryMaterials": [
+        {
+          "ItemName": "Amylase crystal",
+          "Quantity": 3
+        }
+      ],
+      "XP_per_craft": 76.5,
+      "XP_per_hour": 210375
+    },
+    {
+      "RecipeName": "Stamina potion (N=2)",
+      "OutputItemName": "Stamina potion(4)",
+      "RecipeType": "DoseScaled",
+      "N": 2,
+      "GogglesAllowed": false,
+      "BaseMaterials": [
+        {
+          "ItemName": "Super energy(4)",
+          "Quantity": 1,
+          "IsDoseScaledFromFour": true
+        }
+      ],
+      "SecondaryMaterials": [
+        {
+          "ItemName": "Amylase crystal",
+          "Quantity": 2
+        }
+      ],
+      "XP_per_craft": 51,
+      "XP_per_hour": 140250
+    },
+    {
+      "RecipeName": "Stamina potion (N=1)",
+      "OutputItemName": "Stamina potion(4)",
+      "RecipeType": "DoseScaled",
+      "N": 1,
+      "GogglesAllowed": false,
+      "BaseMaterials": [
+        {
+          "ItemName": "Super energy(4)",
+          "Quantity": 1,
+          "IsDoseScaledFromFour": true
+        }
+      ],
+      "SecondaryMaterials": [
+        {
+          "ItemName": "Amylase crystal",
+          "Quantity": 1
+        }
+      ],
+      "XP_per_craft": 25.5,
+      "XP_per_hour": 70125
+    },
+    {
+      "RecipeName": "Extended stamina potion (N=4)",
+      "OutputItemName": "Extended stamina potion(4)",
+      "RecipeType": "DoseScaled",
+      "N": 4,
+      "GogglesAllowed": true,
+      "BaseMaterials": [
+        {
+          "ItemName": "Stamina potion(4)",
+          "Quantity": 1,
+          "IsDoseScaledFromFour": true
+        }
+      ],
+      "SecondaryMaterials": [
+        {
+          "ItemName": "Marlin scales",
+          "Quantity": 4
+        }
+      ],
+      "XP_per_craft": 110,
+      "XP_per_hour": 275000
+    },
+    {
+      "RecipeName": "Extended stamina potion (N=3)",
+      "OutputItemName": "Extended stamina potion(4)",
+      "RecipeType": "DoseScaled",
+      "N": 3,
+      "GogglesAllowed": true,
+      "BaseMaterials": [
+        {
+          "ItemName": "Stamina potion(4)",
+          "Quantity": 1,
+          "IsDoseScaledFromFour": true
+        }
+      ],
+      "SecondaryMaterials": [
+        {
+          "ItemName": "Marlin scales",
+          "Quantity": 3
+        }
+      ],
+      "XP_per_craft": 82.5,
+      "XP_per_hour": 206250
+    },
+    {
+      "RecipeName": "Extended stamina potion (N=2)",
+      "OutputItemName": "Extended stamina potion(4)",
+      "RecipeType": "DoseScaled",
+      "N": 2,
+      "GogglesAllowed": true,
+      "BaseMaterials": [
+        {
+          "ItemName": "Stamina potion(4)",
+          "Quantity": 1,
+          "IsDoseScaledFromFour": true
+        }
+      ],
+      "SecondaryMaterials": [
+        {
+          "ItemName": "Marlin scales",
+          "Quantity": 2
+        }
+      ],
+      "XP_per_craft": 55,
+      "XP_per_hour": 137500
+    },
+    {
+      "RecipeName": "Extended stamina potion (N=1)",
+      "OutputItemName": "Extended stamina potion(4)",
+      "RecipeType": "DoseScaled",
+      "N": 1,
+      "GogglesAllowed": true,
+      "BaseMaterials": [
+        {
+          "ItemName": "Stamina potion(4)",
+          "Quantity": 1,
+          "IsDoseScaledFromFour": true
+        }
+      ],
+      "SecondaryMaterials": [
+        {
+          "ItemName": "Marlin scales",
+          "Quantity": 1
+        }
+      ],
+      "XP_per_craft": 27.5,
+      "XP_per_hour": 68750
+    },
+    {
+      "RecipeName": "Extreme energy potion (N=4)",
+      "OutputItemName": "Extreme energy potion(4)",
+      "RecipeType": "DoseScaled",
+      "N": 4,
+      "GogglesAllowed": true,
+      "BaseMaterials": [
+        {
+          "ItemName": "Super energy(4)",
+          "Quantity": 1,
+          "IsDoseScaledFromFour": true
+        }
+      ],
+      "SecondaryMaterials": [
+        {
+          "ItemName": "Yellow fin",
+          "Quantity": 4
+        }
+      ],
+      "XP_per_craft": 84,
+      "XP_per_hour": 210000
+    },
+    {
+      "RecipeName": "Extreme energy potion (N=3)",
+      "OutputItemName": "Extreme energy potion(4)",
+      "RecipeType": "DoseScaled",
+      "N": 3,
+      "GogglesAllowed": true,
+      "BaseMaterials": [
+        {
+          "ItemName": "Super energy(4)",
+          "Quantity": 1,
+          "IsDoseScaledFromFour": true
+        }
+      ],
+      "SecondaryMaterials": [
+        {
+          "ItemName": "Yellow fin",
+          "Quantity": 3
+        }
+      ],
+      "XP_per_craft": 63,
+      "XP_per_hour": 157500
+    },
+    {
+      "RecipeName": "Extreme energy potion (N=2)",
+      "OutputItemName": "Extreme energy potion(4)",
+      "RecipeType": "DoseScaled",
+      "N": 2,
+      "GogglesAllowed": true,
+      "BaseMaterials": [
+        {
+          "ItemName": "Super energy(4)",
+          "Quantity": 1,
+          "IsDoseScaledFromFour": true
+        }
+      ],
+      "SecondaryMaterials": [
+        {
+          "ItemName": "Yellow fin",
+          "Quantity": 2
+        }
+      ],
+      "XP_per_craft": 42,
+      "XP_per_hour": 105000
+    },
+    {
+      "RecipeName": "Extreme energy potion (N=1)",
+      "OutputItemName": "Extreme energy potion(4)",
+      "RecipeType": "DoseScaled",
+      "N": 1,
+      "GogglesAllowed": true,
+      "BaseMaterials": [
+        {
+          "ItemName": "Super energy(4)",
+          "Quantity": 1,
+          "IsDoseScaledFromFour": true
+        }
+      ],
+      "SecondaryMaterials": [
+        {
+          "ItemName": "Yellow fin",
+          "Quantity": 1
+        }
+      ],
+      "XP_per_craft": 21,
+      "XP_per_hour": 52500
+    },
+    {
+      "RecipeName": "Forgotten brew (N=4)",
+      "OutputItemName": "Forgotten brew(4)",
+      "RecipeType": "DoseScaled",
+      "N": 4,
+      "GogglesAllowed": true,
+      "BaseMaterials": [
+        {
+          "ItemName": "Ancient brew(4)",
+          "Quantity": 1,
+          "IsDoseScaledFromFour": true
+        }
+      ],
+      "SecondaryMaterials": [
+        {
+          "ItemName": "Ancient essence",
+          "Quantity": 80
+        }
+      ],
+      "XP_per_craft": 145,
+      "XP_per_hour": 265785
+    },
+    {
+      "RecipeName": "Forgotten brew (N=3)",
+      "OutputItemName": "Forgotten brew(4)",
+      "RecipeType": "DoseScaled",
+      "N": 3,
+      "GogglesAllowed": true,
+      "BaseMaterials": [
+        {
+          "ItemName": "Ancient brew(4)",
+          "Quantity": 1,
+          "IsDoseScaledFromFour": true
+        }
+      ],
+      "SecondaryMaterials": [
+        {
+          "ItemName": "Ancient essence",
+          "Quantity": 60
+        }
+      ],
+      "XP_per_craft": 108,
+      "XP_per_hour": 197964
+    },
+    {
+      "RecipeName": "Forgotten brew (N=2)",
+      "OutputItemName": "Forgotten brew(4)",
+      "RecipeType": "DoseScaled",
+      "N": 2,
+      "GogglesAllowed": true,
+      "BaseMaterials": [
+        {
+          "ItemName": "Ancient brew(4)",
+          "Quantity": 1,
+          "IsDoseScaledFromFour": true
+        }
+      ],
+      "SecondaryMaterials": [
+        {
+          "ItemName": "Ancient essence",
+          "Quantity": 40
+        }
+      ],
+      "XP_per_craft": 72,
+      "XP_per_hour": 131976
+    },
+    {
+      "RecipeName": "Forgotten brew (N=1)",
+      "OutputItemName": "Forgotten brew(4)",
+      "RecipeType": "DoseScaled",
+      "N": 1,
+      "GogglesAllowed": true,
+      "BaseMaterials": [
+        {
+          "ItemName": "Ancient brew(4)",
+          "Quantity": 1,
+          "IsDoseScaledFromFour": true
+        }
+      ],
+      "SecondaryMaterials": [
+        {
+          "ItemName": "Ancient essence",
+          "Quantity": 20
+        }
+      ],
+      "XP_per_craft": 36,
+      "XP_per_hour": 65988
+    },
+    {
+      "RecipeName": "Extended anti-venom+ (N=4)",
+      "OutputItemName": "Extended anti-venom+(4)",
+      "RecipeType": "DoseScaled",
+      "N": 4,
+      "GogglesAllowed": true,
+      "BaseMaterials": [
+        {
+          "ItemName": "Anti-venom+(4)",
+          "Quantity": 1,
+          "IsDoseScaledFromFour": true
+        }
+      ],
+      "SecondaryMaterials": [
+        {
+          "ItemName": "Araxyte venom sack",
+          "Quantity": 4
+        }
+      ],
+      "XP_per_craft": 80,
+      "XP_per_hour": 146640
+    },
+    {
+      "RecipeName": "Extended anti-venom+ (N=3)",
+      "OutputItemName": "Extended anti-venom+(4)",
+      "RecipeType": "DoseScaled",
+      "N": 3,
+      "GogglesAllowed": true,
+      "BaseMaterials": [
+        {
+          "ItemName": "Anti-venom+(4)",
+          "Quantity": 1,
+          "IsDoseScaledFromFour": true
+        }
+      ],
+      "SecondaryMaterials": [
+        {
+          "ItemName": "Araxyte venom sack",
+          "Quantity": 3
+        }
+      ],
+      "XP_per_craft": 60,
+      "XP_per_hour": 109980
+    },
+    {
+      "RecipeName": "Extended anti-venom+ (N=2)",
+      "OutputItemName": "Extended anti-venom+(4)",
+      "RecipeType": "DoseScaled",
+      "N": 2,
+      "GogglesAllowed": true,
+      "BaseMaterials": [
+        {
+          "ItemName": "Anti-venom+(4)",
+          "Quantity": 1,
+          "IsDoseScaledFromFour": true
+        }
+      ],
+      "SecondaryMaterials": [
+        {
+          "ItemName": "Araxyte venom sack",
+          "Quantity": 2
+        }
+      ],
+      "XP_per_craft": 40,
+      "XP_per_hour": 73320
+    },
+    {
+      "RecipeName": "Extended anti-venom+ (N=1)",
+      "OutputItemName": "Extended anti-venom+(4)",
+      "RecipeType": "DoseScaled",
+      "N": 1,
+      "GogglesAllowed": true,
+      "BaseMaterials": [
+        {
+          "ItemName": "Anti-venom+(4)",
+          "Quantity": 1,
+          "IsDoseScaledFromFour": true
+        }
+      ],
+      "SecondaryMaterials": [
+        {
+          "ItemName": "Araxyte venom sack",
+          "Quantity": 1
+        }
+      ],
+      "XP_per_craft": 20,
+      "XP_per_hour": 36660
+    }
+  ]
+}

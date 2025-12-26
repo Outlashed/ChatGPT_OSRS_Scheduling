@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+
+# Environment / secrets
+.env
+.env.*
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local logs / temp
+*.log
+*.tmp
+
+# Optional: ignore output if you don't want to commit it
+# (Artifacts are uploaded via GitHub Actions anyway)
+# output/

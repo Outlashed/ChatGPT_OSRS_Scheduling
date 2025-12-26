@@ -1,0 +1,38 @@
+name: Herblore Scheduling
+
+on:
+  schedule:
+    # Clock-aligned: xx:00 / xx:15 / xx:30 / xx:45 (UTC)
+    - cron: '0,15,30,45 * * * *'
+  workflow_dispatch: {}
+
+jobs:
+  run-scheduler:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run Herblore scheduler
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: |
+          python scripts/run_scheduler.py
+
+      - name: Upload latest_run.md artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: latest_run_md
+          path: output/latest_run.md
+
+      - name: Upload latest_run.json artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: latest_run_json
+          path: output/latest_run.json
