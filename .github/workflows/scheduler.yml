@@ -1,55 +1,57 @@
-name: Herblore Scheduling
 
-on:
-  schedule:
+
+# name: Herblore Scheduling
+
+# on:
+#   schedule:
     # Clock-aligned: xx:00 / xx:15 / xx:30 / xx:45 (UTC)
-    - cron: '0,15,30,45 * * * *'
-  workflow_dispatch: {}
+#     - cron: '0,15,30,45 * * * *'
+#   workflow_dispatch: {}
 
-jobs:
-  run-scheduler:
-    runs-on: ubuntu-latest
+# jobs:
+#   run-scheduler:
+#    runs-on: ubuntu-latest
 
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+#    steps:
+#      - name: Checkout repository
+ #       uses: actions/checkout@v4
 
-      - name: Debug workflow + tree
-        run: |
-          echo "REF=$GITHUB_REF"
-          echo "SHA=$GITHUB_SHA"
-          echo "WORKSPACE=$GITHUB_WORKSPACE"
-          ls -la
-          ls -la .github || true
-          ls -la .github/scripts || true
-          ls -la scripts || true
-
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-
-      - name: Show active workflow file
-        run: |
-          echo "----- .github/workflows/scheduler.yml (active) -----"
-          sed -n '1,200p' .github/workflows/scheduler.yml
+  #    - name: Debug workflow + tree
+   #     run: |
+    #      echo "REF=$GITHUB_REF"
+     #     echo "SHA=$GITHUB_SHA"
+      #    echo "WORKSPACE=$GITHUB_WORKSPACE"
+       #   ls -la
+        #  ls -la .github || true
+         # ls -la .github/scripts || true
+#          ls -la scripts || true
 
 
-      - name: Run Herblore scheduler
-        env:
-          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
-        run: |
-          python scripts/run_scheduler.py
+ #     - name: Set up Python
+  #      uses: actions/setup-python@v5
+ #       with:
+ #         python-version: '3.11'
 
-      - name: Upload latest_run.md artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: latest_run_md
-          path: output/latest_run.md
+ #     - name: Show active workflow file
+  #      run: |
+   #       echo "----- .github/workflows/scheduler.yml (active) -----"
+    #      sed -n '1,200p' .github/workflows/scheduler.yml
 
-      - name: Upload latest_run.json artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: latest_run_json
-          path: output/latest_run.json
+
+     # - name: Run Herblore scheduler
+      #  env:
+##          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+  ##      run: |
+    ##      python scripts/run_scheduler.py
+
+##      - name: Upload latest_run.md artifact
+##        uses: actions/upload-artifact@v4
+##        with:
+##          name: latest_run_md
+##          path: output/latest_run.md
+
+ #     - name: Upload latest_run.json artifact
+ #       uses: actions/upload-artifact@v4
+   #     with:
+   #       name: latest_run_json
+   #       path: output/latest_run.json
